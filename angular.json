@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BUProject"
+    }
+  },
+  "defaultProject": "BUProject",
+  "cli": {
+    "analytics": "1949db03-41b9-4d24-a956-dd0a03121578"
+  }
 }
