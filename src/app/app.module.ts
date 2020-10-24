@@ -10,6 +10,7 @@ import { RegisterComponent } from './register/register.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BillingComponent } from './Checkout/billing/billing.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BillingComponent } from './Checkout/billing/billing.component';
     RegisterComponent,
     CarouselComponent,
     BillingComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,

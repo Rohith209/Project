@@ -1,3 +1,4 @@
+import { HomepageComponent } from './homepage/homepage.component';
 import { BillingComponent } from './Checkout/billing/billing.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'checkout',
     component: BillingComponent,
+  },
+  {
+    path: 'homepage',
+    component: HomepageComponent,
   },
 ];
 
